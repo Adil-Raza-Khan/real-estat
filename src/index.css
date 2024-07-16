@@ -82,6 +82,27 @@ a {
   font-weight: 600;
 }
 
+.button{
+   
+  font-weight: 500;
+  padding: 0.6rem,1.4rem;
+  color: white;
+  background: var(--blue-gradient);
+  border:none;
+  border-radius: 3px;
+  transition: all 30ms ease-in;  
+  
+}
+.button:hover{
+  cursor: pointer;
+  transform: scale(1.4);
+}
+
+
+
+
+
+
 /* media queries */
 @media (min-width: 1536px) {
   .innerWidth {
